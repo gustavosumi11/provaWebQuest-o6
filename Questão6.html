@@ -1,0 +1,38 @@
+<DOCTYPE!html>
+<html>
+    <meta charset="utf-8"/>
+
+<script>
+var inteiros = [3,8,9,7,6];
+let x;
+function solucao()
+{
+    for(x=0; x<3;x++)
+    {
+    document.write("Array Original ["+inteiros + "]");
+    var popper = inteiros.pop();
+        document.write("<br>");
+            document.write("Último valor removido ["+inteiros + "] e inserido no primeiro endereço");
+                document.write("<br>");
+document.write("Número removido ["+ popper + "]");
+var push = inteiros.unshift(popper)
+    document.write("<br>");
+    document.write("<br>");
+        document.write("ARRAY ATUALIZADO [" + inteiros + "]");
+        document.write("<br>");
+            document.write("<br>");
+        }      
+         document.write("Executado "+ x +"vezes");     
+            document.write("<br>");
+                document.write("Eu acredito que era isso...");
+            
+}
+
+
+solucao(inteiros);
+
+
+
+	</script>
+
+</html>
